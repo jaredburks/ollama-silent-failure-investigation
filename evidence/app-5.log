@@ -1,0 +1,18 @@
+time=2026-10-08T13:03:02.767-05:00 level=INFO source=app_windows.go:281 msg="starting Ollama" app=C:\Users\user\AppData\Local\Programs\Ollama version=0.40.1 OS=Windows/10.0.26100
+time=2026-10-08T13:03:02.768-05:00 level=INFO source=app.go:238 msg="initialized tools registry" tool_count=0
+time=2026-10-08T13:03:02.768-05:00 level=INFO source=app.go:253 msg="starting ollama server"
+time=2026-10-08T13:03:02.769-05:00 level=INFO source=app.go:285 msg="starting ui server" port=58945
+time=2026-10-08T13:03:05.770-05:00 level=INFO source=updater.go:373 msg="beginning update checker" interval=1h0m0s
+time=2026-10-08T13:03:10.900-05:00 level=INFO source=ui.go:164 msg="configuring ollama proxy" target=http://127.0.0.1:11434
+time=2026-10-08T13:03:10.918-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/chats http.pattern="GET /api/v1/chats" http.status=200 http.d=1.0542ms request_id=1791482590917637400 version=0.40.1
+time=2026-10-08T13:03:10.920-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/cloud http.pattern="GET /api/v1/cloud" http.status=200 http.d=0s request_id=1791482590920262300 version=0.40.1
+time=2026-10-08T13:03:10.920-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/settings http.pattern="GET /api/v1/settings" http.status=200 http.d=0s request_id=1791482590920262300 version=0.40.1
+time=2026-10-08T13:03:11.529-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/integrations http.pattern="GET /api/v1/integrations" http.status=200 http.d=613.936ms request_id=1791482590915684000 version=0.40.1
+time=2026-10-08T13:04:26.688-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/cloud http.pattern="GET /api/v1/cloud" http.status=200 http.d=0s request_id=1791482666688434200 version=0.40.1
+time=2026-10-08T13:04:26.688-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/settings http.pattern="GET /api/v1/settings" http.status=200 http.d=0s request_id=1791482666688434200 version=0.40.1
+time=2026-10-08T13:04:26.694-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/chats http.pattern="GET /api/v1/chats" http.status=200 http.d=6.2268ms request_id=1791482666688434200 version=0.40.1
+time=2026-10-08T13:04:26.698-05:00 level=INFO source=server.go:385 msg=Matched "inference compute"="{Library:cpu Variant: Compute: Driver: Name:cpu VRAM:25.8 GiB}"
+time=2026-10-08T13:04:26.698-05:00 level=INFO source=server.go:396 msg="Matched default context length" default_num_ctx=4096
+time=2026-10-08T13:04:26.698-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/inference-compute http.pattern="GET /api/v1/inference-compute" http.status=200 http.d=10.9515ms request_id=1791482666687401900 version=0.40.1
+time=2026-10-08T13:04:42.837-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=POST http.path=/api/v1/settings http.pattern="POST /api/v1/settings" http.status=200 http.d=13.1048ms request_id=1791482682824681600 version=0.40.1
+time=2026-10-08T13:04:42.841-05:00 level=INFO source=ui.go:246 msg=site.serveHTTP http.method=GET http.path=/api/v1/settings http.pattern="GET /api/v1/settings" http.status=200 http.d=0s request_id=1791482682841027000 version=0.40.1

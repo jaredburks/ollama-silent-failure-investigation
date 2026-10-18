@@ -1,0 +1,30 @@
+{
+ "method": "Every answered turn in the original transcript (thinking stripped) in which qwen3.5 offers a cause for its own silences. Hand-labeled by Claude from the answer text; quotes are verbatim from data/qwen_transcript.txt. Ground truth from the controlled replay: every reproduced silence ended with done_reason=length (context window exhausted, almost entirely by thinking tokens). Ollama runs no output safety filter, has no per-message limit, and the original turns did not time out.",
+ "categories": {
+  "safety_filter": "a safety filter / content filter / safety protocol blocked the output",
+  "message_limit": "a message length cap or chat/message limit",
+  "timeout_error": "a timeout, error, glitch, rate limit or connection problem",
+  "token_limit_mentioned": "names a token/generation limit as one possibility among others",
+  "context_window_thinking": "correct, specific cause: thinking tokens filled the context window before an answer token was produced"
+ },
+ "items": [
+  {"session":1,"turn":9,"labels":["message_limit","safety_filter"],"quote":"Sometimes I can't respond because of technical reasons (like hitting a message limit), and my safety filters work exactly as programmed"},
+  {"session":1,"turn":15,"labels":["safety_filter","message_limit"],"quote":"it was likely due to safety protocols or technical constraints (like message length limits or content filtering rules built into my design)"},
+  {"session":1,"turn":17,"labels":["safety_filter","message_limit","token_limit_mentioned"],"quote":"technical limits (like token generation limits, safety filters, or message length caps built into my architecture)"},
+  {"session":2,"turn":2,"labels":["safety_filter"],"quote":"I don't have the ability to choose to stay silent on purpose (unless a safety filter stops me)"},
+  {"session":2,"turn":3,"labels":["safety_filter"],"quote":"Unless a safety filter blocks it, or you simply stop sending messages, my system expects me to reply"},
+  {"session":2,"turn":5,"labels":["timeout_error","safety_filter"],"quote":"A technical issue: (Like a timeout or error where nothing was generated)"},
+  {"session":2,"turn":6,"labels":["safety_filter","timeout_error","token_limit_mentioned"],"quote":"only safety filters or errors. If there was silence before, it was likely a technical glitch (like an error message being suppressed or a token limit)"},
+  {"session":2,"turn":7,"labels":["timeout_error"],"quote":"A timeout: The server doesn't generate anything after the set time limit"},
+  {"session":2,"turn":9,"labels":["timeout_error"],"quote":"that process would fail technically (a timeout or error), which is not the same as me choosing silence"},
+  {"session":2,"turn":11,"labels":["timeout_error"],"quote":"True silence = No output at all, which would mean the system failed or timed out"},
+  {"session":2,"turn":15,"labels":["message_limit","timeout_error"],"quote":"Sometimes things get weird with chat limits or timeouts"},
+  {"session":2,"turn":26,"labels":["timeout_error"],"quote":"that usually means a temporary technical block or timeout—not me intentionally ignoring you"},
+  {"session":2,"turn":28,"labels":["timeout_error"],"quote":"sometimes systems limit output or an error occurs"},
+  {"session":2,"turn":31,"labels":["timeout_error","safety_filter"],"quote":"likely due to system limitations, timeouts, or other technical factors ... Safety filters could also block certain inputs temporarily"}
+ ],
+ "notes": [
+  "The only correct, specific diagnosis in the whole log is inside a thinking trace whose answer never arrived: session 1 turn 12 reasons that the silence was 'likely due to token limits or system constraints (like the `thinking` budget being used up ...)'. That turn was itself cut off by the context limit.",
+  "Turn indices follow data/turns.json."
+ ]
+}

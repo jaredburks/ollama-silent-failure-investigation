@@ -1,0 +1,11 @@
+time=2026-10-09T14:58:13.929-05:00 level=INFO source=app_windows.go:281 msg="starting Ollama" app=C:\Users\user\AppData\Local\Programs\Ollama version=0.40.1 OS=Windows/10.0.26100
+time=2026-10-09T14:58:13.930-05:00 level=INFO source=app.go:238 msg="initialized tools registry" tool_count=0
+time=2026-10-09T14:58:13.932-05:00 level=INFO source=app.go:285 msg="starting ui server" port=49677
+time=2026-10-09T14:58:13.931-05:00 level=INFO source=app.go:253 msg="starting ollama server"
+time=2026-10-09T14:58:16.932-05:00 level=INFO source=updater.go:373 msg="beginning update checker" interval=1h0m0s
+time=2026-10-09T14:58:17.148-05:00 level=INFO source=updater.go:133 msg="New update available at https://github.com/ollama/ollama/releases/download/v0.40.2/OllamaSetup.exe"
+time=2026-10-09T14:58:44.155-05:00 level=INFO source=updater.go:242 msg="new update downloaded C:\\Users\\user\\AppData\\Local\\Ollama\\updates_v2\\bfa5958347d8de8ab2b6a047e602fbf3b8beee2a677635ffd08776a3069a227e\\OllamaSetup.exe"
+time=2026-10-09T15:58:17.175-05:00 level=INFO source=updater.go:133 msg="New update available at https://github.com/ollama/ollama/releases/download/v0.40.2/OllamaSetup.exe"
+time=2026-10-09T15:58:17.428-05:00 level=INFO source=updater.go:198 msg="update already downloaded" bundle=C:\Users\user\AppData\Local\Ollama\updates_v2\bfa5958347d8de8ab2b6a047e602fbf3b8beee2a677635ffd08776a3069a227e\OllamaSetup.exe
+time=2026-10-09T16:58:17.192-05:00 level=INFO source=updater.go:133 msg="New update available at https://github.com/ollama/ollama/releases/download/v0.40.2/OllamaSetup.exe"
+time=2026-10-09T16:58:17.421-05:00 level=INFO source=updater.go:198 msg="update already downloaded" bundle=C:\Users\user\AppData\Local\Ollama\updates_v2\bfa5958347d8de8ab2b6a047e602fbf3b8beee2a677635ffd08776a3069a227e\OllamaSetup.exe

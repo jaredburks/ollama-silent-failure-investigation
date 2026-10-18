@@ -1,0 +1,190 @@
+﻿2026-10-08 12:42:29.581   Log opened. (Time zone: UTC-05:00)
+2026-10-08 12:42:29.581   Setup version: Inno Setup version 6.7.1
+2026-10-08 12:42:29.581   Original Setup EXE: C:\Users\user\AppData\Local\Ollama\OllamaSetup.exe
+2026-10-08 12:42:29.581   Setup command line: /SL5="$3042A,1577034777,845824,C:\Users\user\AppData\Local\Ollama\OllamaSetup.exe" /CLOSEAPPLICATIONS /LOG=upgrade.log /FORCECLOSEAPPLICATIONS /SP /NOCANCEL /SILENT /VERYSILENT /SUPPRESSMSGBOXES
+2026-10-08 12:42:29.581   Windows version: 10.0.26100
+2026-10-08 12:42:29.581   Windows architecture: x64 (64-bit)
+2026-10-08 12:42:29.581   Machine types supported by system: x86 x64
+2026-10-08 12:42:29.581   User privileges: None
+2026-10-08 12:42:29.592   Administrative install mode: No
+2026-10-08 12:42:29.592   Install mode root key: HKEY_CURRENT_USER
+2026-10-08 12:42:29.592   64-bit install mode: Yes
+2026-10-08 12:42:29.592   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-10-08 12:42:29.593   Created temporary directory: C:\Users\user\AppData\Local\Temp\is-9EKBBG48NF.tmp
+2026-10-08 12:42:29.892   Found 166 files to register with RestartManager.
+2026-10-08 12:42:29.892   Calling RestartManager's RmGetList.
+2026-10-08 12:42:30.950   RmGetList finished successfully.
+2026-10-08 12:42:30.950   RestartManager found an application using one of our files: ollama
+2026-10-08 12:42:30.950   RestartManager found an application using one of our files: 
+2026-10-08 12:42:30.950   RestartManager found an application using one of our files: 
+2026-10-08 12:42:30.950   RestartManager found an application using one of our files: 
+2026-10-08 12:42:30.950   RestartManager found an application using one of our files: 
+2026-10-08 12:42:30.950   Can use RestartManager to avoid reboot? Yes (0)
+2026-10-08 12:42:30.952   Starting the installation process.
+2026-10-08 12:42:30.962   Shutting down applications using our files. (forced)
+2026-10-08 12:42:31.141   Directory for uninstall files: C:\Users\user\AppData\Local\Programs\Ollama
+2026-10-08 12:42:31.141   Will append to existing uninstall log: C:\Users\user\AppData\Local\Programs\Ollama\unins000.dat
+2026-10-08 12:42:31.152   -- File entry --
+2026-10-08 12:42:31.152   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\unins000.exe
+2026-10-08 12:42:31.152   Non-default bitness: 32-bit
+2026-10-08 12:42:31.152   Time stamp of our file: 2026-10-08 12:42:29.334
+2026-10-08 12:42:31.152   Dest file exists.
+2026-10-08 12:42:31.152   Time stamp of existing file: 2026-10-07 15:01:54.711
+2026-10-08 12:42:31.152   Version of our file: 51.1054.0.0
+2026-10-08 12:42:31.215   Version of existing file: 51.1054.0.0
+2026-10-08 12:42:31.227   Installing the file.
+2026-10-08 12:42:31.231   Leaving temporary file in place for now.
+2026-10-08 12:42:31.389   -- File entry --
+2026-10-08 12:42:31.389   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\ollama app.exe
+2026-10-08 12:42:31.389   Time stamp of our file: 2026-10-08 00:45:14.000
+2026-10-08 12:42:31.389   Dest file exists.
+2026-10-08 12:42:31.389   Time stamp of existing file: 2026-10-06 18:16:08.000
+2026-10-08 12:42:31.389   Installing the file.
+2026-10-08 12:42:31.864   Successfully installed the file.
+2026-10-08 12:42:34.514   -- File entry --
+2026-10-08 12:42:34.514   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\ollama.exe
+2026-10-08 12:42:34.514   Time stamp of our file: 2026-10-08 00:45:10.000
+2026-10-08 12:42:34.514   Dest file exists.
+2026-10-08 12:42:34.514   Time stamp of existing file: 2026-10-06 18:16:02.000
+2026-10-08 12:42:34.514   Installing the file.
+2026-10-08 12:42:34.919   Successfully installed the file.
+2026-10-08 12:42:34.919   -- File entry --
+2026-10-08 12:42:34.919   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\CPP_HTTPLIB_LICENSE
+2026-10-08 12:42:34.922   Time stamp of our file: 2026-10-08 00:43:36.000
+2026-10-08 12:42:34.922   Installing the file.
+2026-10-08 12:42:34.922   Creating directory: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama
+2026-10-08 12:42:34.922   Successfully installed the file.
+2026-10-08 12:42:34.922   -- File entry --
+2026-10-08 12:42:34.922   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\CUDNN_LICENSE.txt
+2026-10-08 12:42:34.922   Time stamp of our file: 2026-10-08 00:43:36.000
+2026-10-08 12:42:34.922   Installing the file.
+2026-10-08 12:42:34.922   Successfully installed the file.
+2026-10-08 12:42:34.922   -- File entry --
+2026-10-08 12:42:34.922   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\CUTLASS_LICENSE.txt
+2026-10-08 12:42:34.922   Time stamp of our file: 2026-10-08 00:43:36.000
+2026-10-08 12:42:34.922   Installing the file.
+2026-10-08 12:42:34.925   Successfully installed the file.
+2026-10-08 12:42:34.925   -- File entry --
+2026-10-08 12:42:34.925   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\DLFCN_WIN32_COPYING
+2026-10-08 12:42:34.925   Time stamp of our file: 2026-10-08 00:43:36.000
+2026-10-08 12:42:34.925   Installing the file.
+2026-10-08 12:42:34.925   Successfully installed the file.
+2026-10-08 12:42:34.925   -- File entry --
+2026-10-08 12:42:34.925   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\DLPACK_LICENSE
+2026-10-08 12:42:34.925   Time stamp of our file: 2026-10-08 00:43:36.000
+2026-10-08 12:42:34.925   Installing the file.
+2026-10-08 12:42:34.925   Successfully installed the file.
+2026-10-08 12:42:34.925   -- File entry --
+2026-10-08 12:42:34.925   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\FMT_LICENSE
+2026-10-08 12:42:34.925   Time stamp of our file: 2026-10-08 00:43:36.000
+2026-10-08 12:42:34.925   Installing the file.
+2026-10-08 12:42:34.925   Successfully installed the file.
+2026-10-08 12:42:34.927   -- File entry --
+2026-10-08 12:42:34.927   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-base.dll
+2026-10-08 12:42:34.927   Time stamp of our file: 2026-10-08 00:45:06.000
+2026-10-08 12:42:34.927   Installing the file.
+2026-10-08 12:42:34.942   Successfully installed the file.
+2026-10-08 12:42:34.942   -- File entry --
+2026-10-08 12:42:34.942   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-alderlake.dll
+2026-10-08 12:42:34.942   Time stamp of our file: 2026-10-08 00:45:06.000
+2026-10-08 12:42:34.942   Installing the file.
+2026-10-08 12:42:34.972   Successfully installed the file.
+2026-10-08 12:42:34.972   -- File entry --
+2026-10-08 12:42:34.972   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-cannonlake.dll
+2026-10-08 12:42:34.972   Time stamp of our file: 2026-10-08 00:45:06.000
+2026-10-08 12:42:34.972   Installing the file.
+2026-10-08 12:42:35.000   Successfully installed the file.
+2026-10-08 12:42:35.000   -- File entry --
+2026-10-08 12:42:35.000   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-cascadelake.dll
+2026-10-08 12:42:35.000   Time stamp of our file: 2026-10-08 00:45:06.000
+2026-10-08 12:42:35.000   Installing the file.
+2026-10-08 12:42:35.020   Successfully installed the file.
+2026-10-08 12:42:35.020   -- File entry --
+2026-10-08 12:42:35.020   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-cooperlake.dll
+2026-10-08 12:42:35.020   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.020   Installing the file.
+2026-10-08 12:42:35.039   Successfully installed the file.
+2026-10-08 12:42:35.039   -- File entry --
+2026-10-08 12:42:35.039   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-haswell.dll
+2026-10-08 12:42:35.039   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.039   Installing the file.
+2026-10-08 12:42:35.057   Successfully installed the file.
+2026-10-08 12:42:35.057   -- File entry --
+2026-10-08 12:42:35.057   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-icelake.dll
+2026-10-08 12:42:35.057   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.057   Installing the file.
+2026-10-08 12:42:35.074   Successfully installed the file.
+2026-10-08 12:42:35.074   -- File entry --
+2026-10-08 12:42:35.074   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-ivybridge.dll
+2026-10-08 12:42:35.074   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.074   Installing the file.
+2026-10-08 12:42:35.094   Successfully installed the file.
+2026-10-08 12:42:35.094   -- File entry --
+2026-10-08 12:42:35.094   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-piledriver.dll
+2026-10-08 12:42:35.094   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.094   Installing the file.
+2026-10-08 12:42:35.109   Successfully installed the file.
+2026-10-08 12:42:35.109   -- File entry --
+2026-10-08 12:42:35.109   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-sandybridge.dll
+2026-10-08 12:42:35.109   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.109   Installing the file.
+2026-10-08 12:42:35.124   Successfully installed the file.
+2026-10-08 12:42:35.124   -- File entry --
+2026-10-08 12:42:35.124   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-sapphirerapids.dll
+2026-10-08 12:42:35.124   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.124   Installing the file.
+2026-10-08 12:42:35.145   Successfully installed the file.
+2026-10-08 12:42:35.145   -- File entry --
+2026-10-08 12:42:35.145   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-skylakex.dll
+2026-10-08 12:42:35.145   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.145   Installing the file.
+2026-10-08 12:42:35.164   Successfully installed the file.
+2026-10-08 12:42:35.164   -- File entry --
+2026-10-08 12:42:35.164   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-sse42.dll
+2026-10-08 12:42:35.164   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.164   Installing the file.
+2026-10-08 12:42:35.180   Successfully installed the file.
+2026-10-08 12:42:35.180   -- File entry --
+2026-10-08 12:42:35.180   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-x64.dll
+2026-10-08 12:42:35.180   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.180   Installing the file.
+2026-10-08 12:42:35.196   Successfully installed the file.
+2026-10-08 12:42:35.196   -- File entry --
+2026-10-08 12:42:35.196   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml-cpu-zen4.dll
+2026-10-08 12:42:35.196   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.196   Installing the file.
+2026-10-08 12:42:35.213   Successfully installed the file.
+2026-10-08 12:42:35.213   -- File entry --
+2026-10-08 12:42:35.213   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\ggml.dll
+2026-10-08 12:42:35.213   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.213   Installing the file.
+2026-10-08 12:42:35.214   Successfully installed the file.
+2026-10-08 12:42:35.214   -- File entry --
+2026-10-08 12:42:35.214   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\GO_LICENSE
+2026-10-08 12:42:35.214   Time stamp of our file: 2026-10-08 00:44:38.000
+2026-10-08 12:42:35.214   Installing the file.
+2026-10-08 12:42:35.216   Successfully installed the file.
+2026-10-08 12:42:35.216   -- File entry --
+2026-10-08 12:42:35.216   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\JSON_LICENSE.MIT
+2026-10-08 12:42:35.216   Time stamp of our file: 2026-10-08 00:43:36.000
+2026-10-08 12:42:35.216   Installing the file.
+2026-10-08 12:42:35.216   Successfully installed the file.
+2026-10-08 12:42:35.216   -- File entry --
+2026-10-08 12:42:35.216   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\libc++.dll
+2026-10-08 12:42:35.216   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.216   Installing the file.
+2026-10-08 12:42:35.243   Successfully installed the file.
+2026-10-08 12:42:35.243   -- File entry --
+2026-10-08 12:42:35.243   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\libllama-common.dll
+2026-10-08 12:42:35.243   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.243   Installing the file.
+2026-10-08 12:42:35.306   Successfully installed the file.
+2026-10-08 12:42:35.306   -- File entry --
+2026-10-08 12:42:35.306   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\libllama-quantize-impl.dll
+2026-10-08 12:42:35.306   Time stamp of our file: 2026-10-08 00:45:08.000
+2026-10-08 12:42:35.306   Installing the file.
+2026-10-08 12:42:35.308   Successfully installed the file.
+2026-10-08 12:42:35.308   -- File entry --
+2026-10-08 12:42:35.308   Dest filename: C:\Users\user\AppData\Local\Programs\Ollama\lib\ollama\libllama-server-impl.dll
+2026-10-08 12:42:35.308   Time stamp of our file: 2026-10-08 00:45:10.000
+2026-10-08 12:42:35.308   Installing the file.
