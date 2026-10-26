@@ -32,7 +32,7 @@ Requirements: Ollama with `qwen3.5` pulled, and Python 3.9+ (the replay itself n
 # 1. rebuild the replay input (already committed; only needed if you change the parsers)
 PYTHONPATH=harness python harness/build_turns.py
 
-# 2. one condition: session 1 at Ollama's 8 GB default, thinking on
+# 2. one condition: session 1 at Ollama’s default for 8 GB VRAM, thinking on
 python harness/replay.py --session 1 --num-ctx 4096 --think on --seed 1
 
 # 3. the full grid: 3 context sizes x thinking on/off x 3 seeds, then verbatim mode (resumable)
